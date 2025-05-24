@@ -13,10 +13,15 @@ This repository contains a simple Express.js application integrated with **Redis
 ## 📁 Project Structure
 .
 ├── client.js # Redis client setup using ioredis
+
 ├── index.js # Main Express.js server using Redis for API caching
+
 ├── ttl.js # Manual example of setting and retrieving a key with TTL
+
 ├── package.json # Project metadata and dependencies
+
 ├── package-lock.json # Lock file for npm dependencies
+
 └── README.md # Documentation for the project
 
 ### 🔍 File Descriptions
