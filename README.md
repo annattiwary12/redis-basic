@@ -44,39 +44,7 @@ This repository contains a simple Express.js application integrated with **Redis
 
 ---
 
-## 🚀 How to Run This Project
 
-### 1. Start Redis Server
-
-If Redis is installed locally:
-```bash
-redis-server
-Or use Docker:
-
-bash
-Copy code
-docker run --name redis-learn -p 6379:6379 -d redis
- Install Node.js Dependencies
-bash
-Copy code
-npm install
- Start the Express Server
-bash
-Copy code
-node index.js
-Visit: http://localhost:9000
-🧠 What I Learned
-How to use Redis for caching in a Node.js app.
-
-How to connect Redis using ioredis.
-
-The benefits of setting a TTL on cache data.
-
-
-Using Redis to reduce API calls and improve performance.
-
-
----
 
 ![Screenshot 2025-05-24 183129](https://github.com/user-attachments/assets/cb88527c-5558-437c-826e-0f98842e82cf)
 ![Screenshot 2025-05-24 183119](https://github.com/user-attachments/assets/6cfd6f05-fd71-4924-98f8-081dfc1eddf4)
