@@ -40,9 +40,7 @@ This repository contains a simple Express.js application integrated with **Redis
   - Demonstrates how to:
     - Set expiry (TTL) manually on a Redis key (`msg:6`).
     - Retrieve and log the value.
-    - Useful for learning and testing TTL behavior in Redis.
-
----
+    - Useful for learning and testing TTL behavior in Redis
 
 
 
