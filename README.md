@@ -34,18 +34,17 @@ This repository contains a simple Express.js application integrated with **Redis
   - A simple Express server that:
     - On GET `/`, checks if `todos` is cached.
     - If cached → returns it.
-    - If not → fetches from `jsonplaceholder.typicode.com`, caches it in Redis with a TTL of 30 seconds, then responds.
-
-- **ttl.js**
-  - Demonstrates how to:
-    - Set expiry (TTL) manually on a Redis key (`msg:6`).
-    - Retrieve and log the value.
-    - Useful for learning and testing TTL behavior in Redis
+    - If not → fetches from `jsonplaceholder.typicode.com`, caches it in Redis with a TTL of 30 seconds, then responds
 
 
+The Working redis database:- 
+.how  it works?
+.how it send fast message?
 
-![Screenshot 2025-05-24 183129](https://github.com/user-attachments/assets/cb88527c-5558-437c-826e-0f98842e82cf)
+
 ![Screenshot 2025-05-24 183119](https://github.com/user-attachments/assets/6cfd6f05-fd71-4924-98f8-081dfc1eddf4)
+
+
 
 
 
